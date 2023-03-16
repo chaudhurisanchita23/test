@@ -59,7 +59,8 @@ public class BaseTest {
 
         extent= new ExtentReports();
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo( "Automation tester", "Sanchita");
+        extent.setSystemInfo( "Automation tester", "Sanchita");// adding additional info
+
     }
 
 
