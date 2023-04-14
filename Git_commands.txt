@@ -1,0 +1,86 @@
+Git command for check-in codes....
+
+git clone https://github.com/chaudhurisanchita23/test
+
+cd test
+
+git add .
+
+git commit -m "second check-in"
+
+
+git push -u origin main
+
+To https://github.com/chaudhurisanchita23/test
+   1a9834e..e9568fd  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Once again......
+
+git commit -m "second check-in"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+
+(use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+
+
+
+To create a new branch on check-out...
+------------------------
+
+
+git checkout -b "sanch"
+Switched to a new branch 'sanchita'
+
+C:\Sanchita\Work\test>git commit -m "3rd"
+On branch sanchita
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Sanchita\Work\test>git commit -m "3rd"
+On branch sanchita
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   AutomationFramework/src/test/java/BaseTest.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Sanchita\Work\test>git push -u origin sanchita
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'sanchita' on GitHub by visiting:
+remote:      https://github.com/chaudhurisanchita23/test/pull/new/sanchita
+remote:
+To https://github.com/chaudhurisanchita23/test
+ * [new branch]      sanchita -> sanchita
+branch 'sanchita' set up to track 'origin/sanchita'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
